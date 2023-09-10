@@ -14,7 +14,7 @@ namespace Tyuiu.MalsagovUA.Sprint0.Task4.V0.Test
         }
         public void CheckedSubtractionValid()
         {
-            Assert.AreEqual(10, DataService.Subtraction(10, 5));
+            Assert.AreEqual(5, DataService.Subtraction(10, 5));
         }
         public void CheckedMultiplicationValid()
         {
